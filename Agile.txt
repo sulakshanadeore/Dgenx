@@ -1,0 +1,216 @@
+Agile  
+-----
+Agile Methodology
+----------------
+
+SDLC lifecycle
+Requirement Understanding
+Fact Finding
+Planning
+Designing
+Developing
+Testing---> Acceptance Testing
+
+Deployment/Release
+----------------------------
+
+Small part that u develop for the customer---> Sprint/Iteration.
+1 to 4 weeks---Sprint
+User stories
+Tasks
+
+
+Define----> Code---> Integrate--->Test----->First time to get the feedback of the product from the customer
+
+i1
+Review and Adjust
+i2
+  Define--->Code-->Test
+Final Software is ready
+----------------------
+Roles
+1) Scrum Master: is a team leaser and facilitator who helps the team members to follow agile practices so the end software will meet all the 
+commitments mentioned in the SLA(Service Level Agreement)
+  * To shield the team from any disturbances
+  * To enable close co-operation between everyone in the team
+  * To ensure that the AGile Inspect and Adapt processes are following properly:
+     1) Planned meetings
+     2) Daily standups
+     3) Demo/s
+     4) Review
+     5) Retrospect Meetings
+     6) To help in the decision-making process to the team
+     7) Planning for the meetings
+
+2) Product Owner: Understanding the product from business perspective and helping the team to :
+   1) define the requirements and set the priority of the business rules
+   2) to ensure that the team working as per the priority set for the requirements
+   3) To determine the release date and the contents.
+   4) Active person in the iteration planning
+   5) He is the person, who is the voice of the customer
+   6) To understand the user stories that meet the definition of done, defined and acceptance criteria.
+
+User Story:  Client---> As a client I want a contact us page to tell his problem.
+      
+
+UserStory means what is to be done as per the client requirement.
+Tasks:How it is to be done.
+1) Who can see the page--Authorization 
+2) How the page should look
+3) How will u design the page.
+In order to achieve this, name,emailid problem,submit button.
+
+Stories are validated by acceptance tests.
+
+Define: the requirement
+Acceptance: acceptance criteria/s
+Done: done
+
+How is the requirement defined for the user story?
+1) A User story is created
+2) Acceptance criteria is defined
+3) tasks to be implemented for the story are defined.
+
+Cross functional Team: self sufficient team--- developers-3, tester-2, technical lead-2, product owner-1, scrum master-1.
+5 to 10 yrs
+Team of min 5 and 9
+10/15/12/20 days.
+ 
+create table: (8 hours)--store user/login data
+userid
+password
+
+Each story is estimated in points. 1 point----8 hrs
+Capacity -- how much an individual can commit.
+
+---------------------------------------------------
+Agile Manifesto: 12 principles
+1) customer satifaction: early and continuous delivery of the software
+ci/cd-----> continuous integration and continuous deployment
+2) Welcome Change-----
+3) Deliver a working software
+4) Collaboration--business team and the developers along with customer
+5) Motivated Team
+6) Face to face communication 
+7) Measure the progress--- whatever the software developed till date, it should be a working software
+8) Monitoring --- it enhances quality
+9) Simplicity--- of the work that is not completed.
+10) Maintain constant pace/speed
+11) Review --- review the work regularly/ at regular intervals.
+12) Self organised team----donot depend heavily on other teams.
+--------------------------------------------------------------------
+Agile:
+
+Daily standup meetings: <=15 minutes, all team members must be present in the meeting.
+1) What I did yesterday?
+2) What will I do today?
+3) Did yesterday task complete and if not completed, what is the reason of it not done?
+Status update
+
+Scrum Master should solve any impedements/blocks/problems which are taking a toll on the tasks to be completed.
+------------------------
+
+Sprint/Iteration Planning:
+1) Backlogs from the previous sprint if any
+2) Points
+3) Capacity
+4) Number of user stories
+5) Duration of the sprints(Points)
+6) Task planning
+
+-------------------------------------
+
+*Bug: actual vs expected by programmer
+*Defect: actual vs expected announced by customer
+*Error: Programming errors by the programmer
+*Fault: An invalid definition/lack of validation
+unique values-customer requirement
+not null----also implemented this
+*Failure: Many defects means a failure.
+----------------------------------------
+
+Release: Release Planning:
+
+
+Agile Team--Developers, Testers , Technical Lead, Product Owner and Scrum Master.
+StakeHolders--- customer, advisors, Subject Matter Experts 
+
+
+Performance Tests/Stress Tests should be done on the product before putting it to release.
+
+Planning of release must be done With the help of
+1) Flip charts,diagrams, scenarios,projectors.
+2) Previous release planning results in any form should be checked.
+3) Action plans of all meetings to be considered.
+4) Calendars must be checked at organisational levels.
+5) Any dependencies required are met or not. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

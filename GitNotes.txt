@@ -1,0 +1,165 @@
+	Git
+	---
+
+SCM:Source Control Management
+SCM Tool
+
+1) Version Control System
+*************************
+
+Products working with it: Github,Gitlab,BitBucket
+
+2) Git helps you to keep track of the code changes.
+***************************************************
+Integrate ---- Release
+
+A team of developers is working on a project.
+
+Team Lead
+Manager 
+----Developer/s(Actually writes the code)
+
+Integrate the code---error----
+
+Version1
+Version2
+3) Collaborate on code: Integrate the code. Everything is fine then Release of the project.
+******************************************************************************************
+1) Development Server
+2) Testing Server
+3) Production Server----Release of the project
+----------------------------------------------------------------------------------------------------------
+
+1) Git is based on commands
+
+Github: It is a paid product,
+
+BitBucket is free.
+-----------------------------------
+
+What does Git do?
+1) It manages project with Repositories. 
+Repository:Folder
+Name of the repository: Project Folder
+2) Clone the repository: create a copy of the repository on your local machine(laptop/desktop)
+3) Staging: tracking of the changes is done to the code
+4) Commit: Save changes to repository/git back
+5) Branch/es: Sub folders where the code is kept for review(check) purpose.
+6) Merge: combining the sub folder code to the main folder(main/master folder).
+7) Pull:get latest version of the code to the local copy.
+
+			Repo:Project1
+		A       B            C
+---------------------------------------------
+		Hello   HelloWorld Welcome
+Pull:		B+C      A+C	     A+B
+
+8)Push: local code changes to the repository
+              Greetings   GoodWishes   SpecialWelcome
+
+Why Git?
+1) Popular 
+2) Get the work done, collaborate from whereever we want it
+3) All code is available in the repo.
+4) Developers can revert to earlier versions of the project.
+
+What is Github?
+Git is not same as Github.
+Github makes tools that use Git
+Github is the largest host of source code, owned by Microsoft since 2018.
+
+Working with Git
+1) Initialize git on a folder, making a repo
+2) git will create a hidden folder to keep changes in that folder
+3) When a file is added,changed or deleted, it is considered as Modified.
+4) You select the modified files that you want to stage
+5) You can commit the staged files
+----------------------------------------------------------------------
+1) git --version
+2) Configure: --global
+a)git config --global user.name "deoresulakshana"
+b)git config --global user.email "deoresulakshana@gmail.com"
+--------------------------------------
+3) mkdir foldername(Create a folder with the foldername)
+4) cd foldername(Go to the folder--change directory to the foldername)
+5) git init
+untracked: file there in the project but not in repo
+tracked:files there in the project and added to repo
+6)Add a single file to staging: git add filename
+More than one file: git add --all/git add -A
+7) git commit -m "Message"
+8) git log
+-------------------------
+Git commit without staging
+
+1) stage every change of the tracked file,skip the staging.
+git commit -a -m "changing file1"
+
+2) git status --short
+
+??---untracked
+A--Files added to stage
+M--Modified Files
+D--Deleted File 
+
+git commit --interactive -m "changed third file"
+-------------------------------------------
+Branches
+
+Main Version of code is with the master.
+A new branch should contain the basic code the master has, and then this separate branch will have the next code following it.
+
+copy of previous(master) folder:branch
+1) to go back to the previous code.
+2) emergency
+
+Create a branch:
+git branch branchname
+1) git branch b1----created
+2) git checkout b1----go to b1
+git status----u r in b1
+3) git branch----to see list of branches
+
+
+master      b1
+a	    a 	
+b           b c d 
+c
+d	
+
+----------------------
+Merge file: used to copy files from branch to master, but the files must be committed to branch.
+The “ort” strategy offers enhanced conflict resolution capabilities.
+---------------------------------------------------
+
+Github: 
+git remote add origin https://github.com/sulakshanadeore/SixteenthJan.git
+git push -u origin master
+ git push --set-upstream origin b2
+
+	    
+Pull: is a combination of 2 commands : 1) fetch and 2) merge
+
+1) config
+a)git config --global user.name "deoresulakshana"
+b)git config --global user.email "deoresulakshana@gmail.com"
+
+2)git remote add origin https://github.com/sulakshanadeore/SixteenthJan.git
+3)git init
+4) git checkout master
+5) git pull --all
+6) git checkout b2
+7)git pull --all
+
+
+
+
+
+
+ 
+
+
+
+
+
+
